@@ -1,0 +1,44 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.font-red {
+  color: orangered;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.font-red_3Bgyt {
+  color: red;
+}
+.btn_alhhl.ant-btn-primary {
+  background: green;
+}
+.test_3y8E0 {
+  font-size: 16px;
+}
+.icon_1Po5V {
+  background: url(resource/icon.png) no-repeat;
+  height: 184px;
+}
+.table_EPEcJ .ant-table {
+  width: 200px;
+}
+
+
+/*# sourceMappingURL=0.c17a9a6e9eb301bcf9cc.css.map*/

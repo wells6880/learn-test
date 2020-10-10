@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        height: 2000px;
+        background: #ccc;
+        margin-top:100px;
+    }
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        background: red;
+        height: 50px;
+        margin-bottom: 30px;
+        line-height: 50px;
+        text-align: center;
+        top: 0;
+    }
+</style>
+<body>
+    <div class="sticky">内容1</div>
+    <div class="sticky">内容2</div>
+    <div class="sticky">内容3</div>
+</body>
+<script src="https://cdn.bootcss.com/stickyfill/2.1.0/stickyfill.min.js"></script>
+<script>
+    var elements = document.querySelectorAll('.sticky');
+    Stickyfill.add(elements);
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    html,body {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: orange;
+    }
+    .menu {
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        background: gray;
+        overflow-y: auto;
+    }
+    .menu-list {
+        width: 80%;
+        height: 2000px;
+        background: black;
+        margin: 0 auto;
+    }
+    .content {
+        /* position: fixed;
+        top: 60px;
+        left: 300px;
+        right: 0;
+        bottom: 0; */
+        margin: 60px 0 0 300px;
+        background: yellowgreen;
+        overflow-y: auto;
+    }
+    .text {
+        width: 100px;
+        height: 2000px;
+        background: black;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <header></header>
+    <div class="menu">
+        <div class="menu-list"></div>
+    </div>
+    <div class="content">
+        <div class="text"></div>
+    </div>
+</body>
+</html>

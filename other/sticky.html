@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        /* height: 2000px; */
+        /* overflow: visible; */
+    }
+    .wrap {
+        margin-left: 100px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .split {
+        height: 1000px;
+        background: #ccc;
+    }
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        /* top: 20px; */
+        bottom: 0;
+        background: red;
+        height: 50px;
+    }
+    .right {
+        width: 100px;
+        height: 30px;
+        background: yellowgreen;
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+    .footer {
+        height: 200px;
+        background: yellow;
+    }
+</style>
+<body>
+    <div class="wrap">
+        <div class="split">list</div>
+        <div class="sticky">sticky</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+<!-- <script src="https://cdn.bootcss.com/stickyfill/2.1.0/stickyfill.min.js"></script> -->
+</html>

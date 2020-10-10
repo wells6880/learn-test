@@ -1,0 +1,24 @@
+.font-red {
+    color: red;
+}
+// .btn:global {
+//     .ant-btn-primary {
+//         background: green;
+//     }
+// }
+.btn:global(.ant-btn-primary) {
+    background: green;
+}
+.test {
+    composes: btn;
+    font-size: 16px;
+}
+.icon {
+    background: url('./assets/img/icon.png') no-repeat;
+    height: 184px;
+}
+.table {
+    :global(.ant-table) {
+        width: 200px;
+    }
+}
