@@ -17,10 +17,10 @@ module.exports = {
         'type',
         'scope',
         'subject',
-        'body'
+        // 'body'
         // 'breaking'
         // 'issues',
-        // 'lerna'
+        'lerna'
     ],
     scopes: [],
     types: {
