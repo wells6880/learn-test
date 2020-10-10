@@ -71,7 +71,7 @@ module.exports = {
         },
         test: {
             description: '测试',
-            // emoji: '💍',
+            emoji: '💍',
             value: 'test'
         }
     }

@@ -1,6 +1,6 @@
 {
     "name": "test",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "webpack.config.js",
     "scripts": {
@@ -9,7 +9,8 @@
         "dev": "npm-run-all --parallel start mockServer",
         "testjs": "cross-env NODE_ENV=testjs webpack-dev-server --config ./config/webpack.config.js",
         "build": "cross-env NODE_ENV=development webpack --progress --colors --config ./config/webpack.config.js",
-        "buildjs": "cross-env NODE_ENV=testjs webpack --progress --colors --config ./config/webpack.config.js"
+        "buildjs": "cross-env NODE_ENV=testjs webpack --progress --colors --config ./config/webpack.config.js",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "author": "",
     "license": "ISC",
