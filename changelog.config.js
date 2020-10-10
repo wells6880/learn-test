@@ -70,7 +70,7 @@ module.exports = {
             value: 'style'
         },
         test: {
-            description: 'Adding missing tests',
+            description: '测试',
             // emoji: '💍',
             value: 'test'
         }
