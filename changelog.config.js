@@ -17,8 +17,8 @@ module.exports = {
         'type',
         'scope',
         'subject',
-        // 'body',
-        'breaking'
+        'body'
+        // 'breaking'
         // 'issues',
         // 'lerna'
     ],
