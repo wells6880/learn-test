@@ -18,9 +18,9 @@ module.exports = {
         'scope',
         'subject',
         // 'body'
-        // 'breaking'
+        'breaking'
         // 'issues',
-        'lerna'
+        // 'lerna'
     ],
     scopes: [],
     types: {
