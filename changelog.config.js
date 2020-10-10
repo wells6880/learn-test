@@ -16,9 +16,9 @@ module.exports = {
     questions: [
         'type',
         'scope',
-        'subject'
+        'subject',
         // 'body',
-        // 'breaking',
+        'breaking'
         // 'issues',
         // 'lerna'
     ],
